@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Job Finder</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Job Finder Pro</h1>
+<p>Developed by Sakshi Kalal</p>
+<p>Search jobs instantly</p>
+
+<div class="search-box">
+<h3 id="jobCount"></h3>
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search job title..."
+>
+
+<button id="searchBtn">
+Search
+</button>
+
+</div>
+
+<div id="loading" style="display:none; color:white; text-align:center;">
+    Loading jobs...
+</div>
+
+<div id="jobsContainer">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
